@@ -5,6 +5,5 @@
 #include "reconstruct.h"
 #include <mpi.h>
 
-void p_reconstruct(void *buf, int nx_min, int nx_max, int ny, int iterations);
-void reconstruct_image_segment(void *segment, void *edge, int nx_min, int nx_max, int ny);
+void p_reconstruct(char *infilename, int iterations);
 #endif
